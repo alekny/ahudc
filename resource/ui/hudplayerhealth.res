@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-265"
-		"ypos"			"c65"
+		"xpos"			"c-219"
+		"ypos"			"c20"
 		"zpos"			"2"
 		"wide"			"180"
 		"tall"			"150"
@@ -72,7 +72,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"font"			"aRegular55"
 		"fgcolor"		"HP"
 	}
@@ -89,7 +89,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"font"			"aRegular55"
 		"fgcolor"		"ShadowBlack"
 
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBoxBG"
-		"xpos"			"0"
+		"xpos"			"-10"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"100"

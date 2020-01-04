@@ -17,15 +17,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
-		"xpos"			"c-123"
-		"ypos"			"312"
+		"xpos"			"c-157"
+		"ypos"			"271"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"fgcolor"		"Damage Numbers"
 		"font"			"aRegular20"
 	}
@@ -42,7 +42,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%metal%"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"fgcolor"		"ShadowBlack"
 		"font"			"aRegular20"
 

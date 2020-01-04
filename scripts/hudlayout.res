@@ -8,26 +8,24 @@
 	// and ypos values if not perfectly centered.
 	//--------------------------------------------------------------
 
-	KnucklesCrosses
+	"Knuckles Crosshairs"
 	{
-		"visible" 		"0"
-		"enabled" 		"0"
+		"visible" 									"1"
 		
-		"labelText"		"a"
+		"xpos" 		 								"c-25"
+		"ypos" 		 								"c-25"
+		"wide" 		 								"50"
+		"tall" 		 								"50"
 		
-		"controlName"	"CExLabel"
-		"fieldName"	 	"KnucklesCrosses"
-		"zpos"			"0"
-		"xpos" 		 	"c-25"
-		"ypos" 		 	"c-25"
-		"wide" 		 	"50"
-		"tall" 		 	"50"
+		"fgcolor" 									"40 215 58 255"
+		"labelText"									"o"						//You can change this to use a different crosshair, see the list of crosshairs in Knuckles - Crosshairs.png
+		"font"										"size:25,outline:off"
 		
-		"font"			"size:30,outline:off"	// size: range 10-50
-												// outline: on or off
-		
-		"textAlignment"	"center"
-		"fgcolor" 		"Crosshair"
+		"controlName"								"CExLabel"
+		"fieldName"	 								"Knuckles Crosshairs"
+		"textAlignment"								"center"
+		"enabled" 									"1"
+		"zpos"										"1"
 	}
 	
 	//--------------------------------------------------------------
@@ -48,9 +46,9 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c92"
-		"ypos"	"c65"
-		"wide"	"150"
+		"xpos"	"c-36"
+		"ypos"	"c20"
+		"wide"	"260"
 		"tall"	"125"
 	}
 	
@@ -98,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"c65"
+		"ypos"			"c25"
 		"wide"			"f0"
 		"tall"			"300"
 	}
@@ -249,7 +247,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"245"
+		"ypos"		"235"
 		"wide"	 	"200"
 		"tall"	 	"50"
 		"priority"	"40"
@@ -279,7 +277,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"275"
+		"ypos"		"355"
 		"wide"	 	"200"
 		"tall"	 	"50"
 		"priority"	"35"
