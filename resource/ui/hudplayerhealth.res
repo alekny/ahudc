@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HealthBoxBG"
-		"xpos"			"-10"
+		"xpos"			"-8"
 		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"100"
