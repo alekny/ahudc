@@ -36,7 +36,7 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		
-		"ShadowBlack"			"7 7 7 230"
+		"ShadowBlack"			"7 7 7 240"
 		"HudBlack"				"0 0 0 200"
 		
 		"ahudBlue"				"72 112 125 255"
