@@ -18,7 +18,8 @@ Scheme
 		"Healing Numbers"		"0 255 127 255"
 		
 		"Ammo In Clip"			"243 243 243 255"
-		"Ammo In Reserve"		"0 191 255 255"
+		//"Ammo In Reserve"		"0 191 255 255"
+		"Ammo In Reserve"		"112 176 255 255"
 		"Ammo No Clip"			"243 243 243 255"
 		"LowAmmo1"				"200 45 45 255"
 		"LowAmmo2"				"255 45 45 255"

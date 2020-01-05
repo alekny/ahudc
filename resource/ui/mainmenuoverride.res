@@ -1999,10 +1999,46 @@
 		"image_armedcolor"	"0 0 0 255"
 	}
 	
-	"DemoUIButton"
+	//	"DemoUIButton"
+	//	{
+	//		"ControlName"	"CExImageButton"
+	//		"fieldName"		"DemoUIButton"
+	//		"xpos"			"27"
+	//		"ypos"			"375"
+	//		"zpos"			"11"
+	//		"wide"			"65"
+	//		"tall"			"14"
+	//		"autoResize"	"0"
+	//		"pinCorner"		"3"
+	//		"visible"		"1"
+	//		"enabled"		"1"
+	//		"tabPosition"	"0"
+	//		"labelText"		"DemoUI"
+	//		"font"			"aRegular12"
+	//		"textAlignment"	"west"
+	//		"textinsetx"	"10"
+	//		"use_proportional_insets" "1"
+	//		"dulltext"		"0"
+	//		"brighttext"	"0"
+	//		"default"		"1"
+	//		"Command"		"engine demoui"
+	//	
+	//		"sound_depressed"	"UI/buttonclick.wav"
+	//		"sound_released"	"UI/buttonclickrelease.wav"
+	//		
+	//		"border_default"	"NoBorder"
+	//		"border_armed"		"ahudMenuBorder"
+	//		"paintbackground"	"0"
+	//		
+	//		"defaultFgColor_override" "ahudWhite"
+	//		"armedFgColor_override"   "ahudWhite"
+	//		"depressedFgColor_override" "75 125 255 255"
+	//	}
+
+	"ServerBrowserButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"DemoUIButton"
+		"fieldName"		"ServerBrowserButton"
 		"xpos"			"27"
 		"ypos"			"375"
 		"zpos"			"11"
@@ -2013,7 +2049,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"DemoUI"
+		"labelText"		"Servers"
 		"font"			"aRegular12"
 		"textAlignment"	"west"
 		"textinsetx"	"10"
@@ -2021,8 +2057,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"Command"		"engine demoui"
-
+		"Command"		"engine gamemenucommand openserverbrowser"
+	
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
