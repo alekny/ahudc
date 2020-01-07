@@ -1,3 +1,14 @@
+//Fix chat position
+event CompetitiveGame_LowerChatWindow
+{
+	Animate HudChat ypos r200 Accel 0 0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	Animate HudChat ypos r200 Accel 0 0
+}
+
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {

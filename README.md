@@ -1,4 +1,4 @@
-# cahud
+# cahud 0.2
 
 cahud is a centered mod for [ahud](https://github.com/n0kk/ahud) by n0kk.
 
