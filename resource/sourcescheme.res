@@ -812,5 +812,6 @@ Scheme
 			"font"	"resource/fonts/CodeProLC.otf"
 			"name"	"Code-Pro-LC"
 		}
+		
 	}
 }

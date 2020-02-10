@@ -978,11 +978,22 @@ Scheme
 			{
 				"name"		"Code-Pro-LC"
 				"tall"		"55"
-				"additive"	"0"
+				//"additive"	"0"
 				"antialias" "1"
 				"blur"		"1"
 			}
 		}		
+		"aRegularShadow55Bold"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-Bold"
+				"tall"		"55"
+				//"additive"	"0"
+				"antialias" "1"
+				"blur"		"1"
+			}
+		}	
 		"aTargetIDData"
 		{
 			"1"

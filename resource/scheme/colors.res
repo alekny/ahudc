@@ -19,7 +19,7 @@ Scheme
 		
 		"Ammo In Clip"			"243 243 243 255"
 		//"Ammo In Reserve"		"0 191 255 255"
-		"Ammo In Reserve"		"112 176 255 255"
+		"Ammo In Reserve"		"132 196 255 255"
 		"Ammo No Clip"			"243 243 243 255"
 		"LowAmmo1"				"200 45 45 255"
 		"LowAmmo2"				"255 45 45 255"
@@ -37,7 +37,7 @@ Scheme
 		// HUD COLORS
 		//---------------------------------------------
 		
-		"ShadowBlack"			"7 7 7 248"
+		"ShadowBlack"			"40 40 40 235"
 		"HudBlack"				"0 0 0 200"
 		
 		"ahudBlue"				"72 112 125 255"

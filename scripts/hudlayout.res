@@ -46,8 +46,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c-34"
-		"ypos"	"c20"
+		"xpos"	"c-72"
+		"ypos"	"c48"
 		"wide"	"260"
 		"tall"	"125"
 	}
@@ -96,7 +96,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"0"
-		"ypos"			"c25"
+		"ypos"			"c1"
 		"wide"			"f0"
 		"tall"			"300"
 	}
@@ -209,8 +209,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-181"
-		"ypos"					"267"
+		"xpos"					"c36"
+		"ypos"					"263"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -246,8 +246,8 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"235"
+		"xpos"		"c-127"
+		"ypos"		"230"
 		"wide"	 	"200"
 		"tall"	 	"50"
 		"priority"	"40"
@@ -468,17 +468,17 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"
-		"ypos"	 "18"
+		"xpos"	 "350"
+		"ypos"	 "60"
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "6"
+		"MaxDeathNotices" "4"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
-		"LineSpacing"	  "0"
+		"LineHeight"	  "10"
+		"LineSpacing"	  "1"
 		"CornerRadius"	  "0"
-		"RightJustify"	  "1"	// If 1, draw notices from the right
+		"RightJustify"	  "0"	// If 1, draw notices from the right
 		
 		"TextFont"		"aRegular10"
 		

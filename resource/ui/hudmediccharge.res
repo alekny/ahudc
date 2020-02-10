@@ -1,4 +1,4 @@
-// Bottom-aligned charge meter
+// No-box Medic HUD
 
 "Resource/UI/HudMedicCharge.res"
 {	
@@ -23,8 +23,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c55"
-		"ypos"			"25"
+		"xpos"			"c10"
+		"ypos"			"-15"
 		"zpos"			"2"
 		"wide"			"115"
 		"tall"			"42"
@@ -37,7 +37,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"aRegular55"
+		"font"			"aRegular20"
 		"fgcolor"		"ChargePercent"
 	}
 
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelShadow"
-		"xpos"			"-1"
+		"xpos"			"0"
 		"ypos"			"-1"
 		"zpos"			"2"
 		"wide"			"115"
@@ -59,7 +59,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"aRegular55"
+		"font"			"aRegular20"
 		"fgcolor"		"ShadowBlack"
 
 		"pin_to_sibling"	"ChargeLabel"
@@ -71,11 +71,11 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c58"
-		"ypos"			"26"
+		"xpos"			"c102"
+		"ypos"			"29"
 		"zpos"			"3"
 		"wide"			"114"
-		"tall"			"42"
+		"tall"			"43"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -134,10 +134,10 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
-		"ypos"			"210"
+		"xpos"			"c-60"
+		"ypos"			"38"
 		"zpos"			"1"
-		"wide"			"f0"
+		"wide"			"120"
 		"tall"			"6"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -259,8 +259,8 @@
 	{
 		"ControlName" 	"EditablePanel"
 		"fieldName" 	"ResistIconAnchor"
-		"xpos" 			"c-187"
-		"ypos" 			"32"
+		"xpos" 			"c-227"
+		"ypos" 			"0"
 		"wide" 			"25"
 		"tall" 			"25"
 		"visible" 		"1"
